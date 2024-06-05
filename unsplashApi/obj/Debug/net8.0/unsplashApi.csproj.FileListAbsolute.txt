@@ -19,3 +19,4 @@ C:\Users\aronc\Documents\Codes\unsplashApi\unsplashApi\bin\Debug\net8.0\Colorful
 C:\Users\aronc\Documents\Codes\unsplashApi\unsplashApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\aronc\Documents\Codes\unsplashApi\unsplashApi\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\aronc\Documents\Codes\unsplashApi\unsplashApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aronc\Documents\Codes\unsplashApi\unsplashApi\obj\Debug\net8.0\unsplashApi.sourcelink.json

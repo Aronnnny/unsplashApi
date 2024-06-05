@@ -14,21 +14,33 @@ namespace unsplashApi
 
         static async Task Main(string[] args)
         {
-            Console.Write("Search Photo: ");
-            string query = Console.ReadLine();
-            string photoUrl = await FetchFirstPhotoUrlAsync(query);
+            bool continueSearching = true;
 
-            if (photoUrl != null)
+            while (continueSearching)
             {
-                Console.WriteLine($"First photo URL: {photoUrl}");
-                await PrintImageAsAscii(photoUrl);
-            }
-            else
-            {
-                Console.WriteLine("No photos found");
+                Console.Write("Search Photo: ");
+                string query = Console.ReadLine();
+                string photoUrl = await FetchFirstPhotoUrlAsync(query);
+
+                if (photoUrl != null)
+                {
+                    Console.WriteLine($"First photo URL: {photoUrl}");
+                    await PrintImageAsAscii(photoUrl);
+                }
+                else
+                {
+                    Console.WriteLine("No photos found");
+                }
+
+                Console.Write("Search again [Y/N]: ");
+                string response = Console.ReadLine().ToUpper();
+
+                if (response != "Y")
+                {
+                    continueSearching = false;
+                }
             }
         }
-
         static async Task<string> FetchFirstPhotoUrlAsync(string query)
         {
             using HttpClient client = new HttpClient();
