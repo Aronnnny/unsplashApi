@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("unsplashApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdbf450625bf4db722242604888112123d519b3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f259d1fcf9dad513f0118f32d45a6f1c109bcdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("unsplashApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("unsplashApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

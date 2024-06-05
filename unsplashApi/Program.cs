@@ -10,7 +10,7 @@ namespace unsplashApi
 {
     class Program
     {
-        private static readonly string AccessKey = "QilKyffYwDFYAaX9kN_V31cxDHdWGKeG9UDYUNu0gk0";
+        private static readonly string AccessKey = "ACCESS_TOKEN_HERE";
 
         static async Task Main(string[] args)
         {
@@ -83,7 +83,7 @@ namespace unsplashApi
             {
                 Bitmap grayBitmap = ConvertToGrayscale(bitmap);
 
-                Bitmap resizedBitmap = ResizeImage(grayBitmap, 500);
+                Bitmap resizedBitmap = ResizeImage(grayBitmap, 200);
 
                 string asciiArt = ConvertToAscii(resizedBitmap);
 
